@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from util import WoxEx, WoxAPI, load_module, Log
+
 import http.client
 import json
 import urllib
@@ -10,7 +13,7 @@ from configparser import ConfigParser
 from wox import Wox, WoxAPI
 
 
-class Main(Wox):
+class Main(WoxEx):
     __HEADERS = {
         "Content-Type": "application/x-www-form-urlencoded"
     }
@@ -51,7 +54,7 @@ class Main(Wox):
         except:
             self.__error_codes = {}
 
-    def __load_key():
+    def __load_key(self):
         try:
             conf = ConfigParser()
             conf.read("key.ini")
