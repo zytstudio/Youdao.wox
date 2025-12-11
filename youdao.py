@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-from util import WoxEx, WoxAPI, load_module, Log
-
 import http.client
 import json
 import urllib
@@ -13,7 +11,7 @@ from configparser import ConfigParser
 from wox import Wox, WoxAPI
 
 
-class Main(WoxEx):
+class Main(Wox):
     __HEADERS = {
         "Content-Type": "application/x-www-form-urlencoded"
     }
