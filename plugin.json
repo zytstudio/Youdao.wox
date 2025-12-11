@@ -3,10 +3,10 @@
   "ActionKeyword":"fy",
   "Name":"有道智云翻译",
   "Description":"有道智云翻译，自动检测语言",
-  "Author":"qianlifeng, foolment, ferstar",
-  "Version":"0.0.2",
+  "Author":"qianlifeng, foolment, ferstar, zytstudio",
+  "Version":"0.1.0",
   "Language":"python",
-  "Website":"https://github.com/ferstar/Youdao.wox",
+  "Website":"https://github.com/zytstudio/Youdao.wox",
   "IcoPath": "img\\youdao.ico",
   "ExecuteFileName":"youdao.py"
 }
